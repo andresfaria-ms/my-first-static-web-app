@@ -4,4 +4,22 @@
       "staticwebapp.andresfaria.com"
     ]
   }
+  "platform": {
+    "apiRuntime": "python:3.8"
+  }
+  "responseOverrides": {
+    "400": {
+      "rewrite": "/invalid-invitation-error.html"
+    },
+    "401": {
+      "statusCode": 302,
+      "redirect": "/"
+    },
+    "403": {
+      "rewrite": "/custom-forbidden-page.html"
+    },
+    "404": {
+      "rewrite": "/custom-404.html"
+    }
+  }
 }
