@@ -3,10 +3,10 @@
     "allowedForwardedHosts": [
       "staticwebapp.andresfaria.com"
     ]
-  }
+  },
   "platform": {
     "apiRuntime": "python:3.8"
-  }
+  },
   "responseOverrides": {
     "400": {
       "rewrite": "/invalid-invitation-error.html"
