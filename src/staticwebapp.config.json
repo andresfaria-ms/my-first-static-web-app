@@ -11,6 +11,10 @@
     {
       "route": "/redirect",
       "redirect": "/youhavebeenredirected"
+    },
+    {
+      "route": "/redirectwithoutxforwardedforheader",
+      "redirect": "/youhavebypassedtheappgw"
     }
   ]
 }
