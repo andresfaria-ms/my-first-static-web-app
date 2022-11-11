@@ -4,6 +4,12 @@
       "staticwebapp.andresfaria.com"
     ]
   },
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
   "platform": {
     "apiRuntime": "python:3.8"
   },
