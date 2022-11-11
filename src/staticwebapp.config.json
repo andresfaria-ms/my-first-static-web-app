@@ -1,0 +1,7 @@
+{
+    "forwardingGateway": {
+    "allowedForwardedHosts": [
+      "staticwebapp.andresfaria.com"
+    ]
+  }
+}
