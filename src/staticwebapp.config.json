@@ -13,7 +13,7 @@
     },
     "401": {
       "statusCode": 302,
-      "redirect": "/"
+      "redirect": "/.auth/login/github?post_login_redirect_uri=.referrer"
     },
     "403": {
       "rewrite": "/custom-forbidden-page.html"
