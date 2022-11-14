@@ -1,5 +1,8 @@
 {
     "forwardingGateway": {
+    "requiredHeaders": {
+      "X-Forwarded-Host" : "staticwebapp.andresfaria.com"
+    },
     "allowedForwardedHosts": [
       "staticwebapp.andresfaria.com"
     ]
@@ -10,7 +13,7 @@
   "routes": [
     {
       "route": "/redirect",
-      "redirect": "/.referrer/youhavebeenredirected"
+      "redirect": ".referrer/youhavebeenredirected"
     },
     {
       "route": "/redirectwithoutxforwardedforheader",
