@@ -10,7 +10,7 @@
   "routes": [
     {
       "route": "/redirect",
-      "redirect": "/youhavebeenredirected"
+      "redirect": "/.referrer/youhavebeenredirected"
     },
     {
       "route": "/redirectwithoutxforwardedforheader",
